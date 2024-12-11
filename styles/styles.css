@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: arial, sans-serif;
+    background-color:#F5DEB3;
+    color: #583f0efa;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #583f0efa;
+    text-decoration: none;
+}
+
+main {
+    font-family: poppins;
+}
+
+#Beranda {
+    text-align: center;
+}
+
+#Beranda > p {
+    color: #583f0efa;
+}
+
+.LogoBazar {
+    width: 25%;
+}
+
+#CaraPemesanan {
+    margin-top: 50px;
+}
+
+#CaraPemesanan > ol {
+    text-align: justify;
+}
+
+.FormatPemesanan {
+    width: 25%;
+}
+
+#Produk {
+    margin-top: 50px;
+}
+
+.TKJ,
+.AP,
+.KL,
+.PH1,
+.PH2 {
+    margin-bottom: 50px;
+}
+
+.TKJ > h5,
+.AP > h5,
+.KL > h5,
+.PH1 > h5,
+.PH2 > h5 {
+    text-align: center;
+}
+
+.kartu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    box-shadow: 2px 6px 9px black;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 20px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+    bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .LogoBazar {
+        width: 50%;
+    }
+
+    .FormatPemesanan {
+        width: 50%;
+    }
+
+    .kartu {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+}
